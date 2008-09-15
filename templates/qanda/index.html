@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Ask a Question</h1>
+<form method="post">
+	{{ form.as_p }}
+	<input type="submit" value="Ask Question" />
+</form>
+{% endblock %}
+
